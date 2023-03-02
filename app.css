@@ -152,6 +152,8 @@ main {
     margin: 0px;
     text-align: center;
     font-weight: 600;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
 
 }
 
@@ -160,6 +162,7 @@ main {
     display: block;
     color: white;
     margin: 0px;
+    margin-top: 10px;
     text-align: center;
     font-weight: 400;
     font-size: 20px;
