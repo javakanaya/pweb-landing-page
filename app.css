@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    position: sticky;
+    z-index: 50;
+    top: 0;
+    width: 100%;
+    display: block;
+}
+
+.nav {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 4px 0px;
+    display: flex;
+    height: 56px;
+    -moz-box-pack: justify;
+    justify-content: space-between;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.nav .menu {
+    display: inline-flex;
+    flex-wrap: wrap;
+    height: 100%;
+    overflow: hidden;
+    -moz-box-align: stretch;
+    align-items: stretch;
+}
+
+.nav .menu a {
+    color: rgb(36, 36, 36);
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    height: 100%;
+    line-height: 20px;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.nav .menu a img {
+    height: 50px;
+    margin-top: -10px;
+}
+
+.login {
+    display: flex;
+    flex-wrap: nowrap;
+    -moz-box-align: center;
+    align-items: center;
+    height: 100%;
+}
+
+.login .btn {
+    display: inline-block;
+    min-width: 110px;
+    margin-left: 16px;
+}
+
+.login .btn a {
+    width: 100%;
+    display: flex;
+    -moz-box-align: center;
+    align-items: center;
+    -moz-box-pack: center;
+    justify-content: center;
+    border-radius: 4px;
+    border-style: none;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 8px 24px;
+    background: none;
+    border-color: #74aa28;
+    box-shadow: 0px 0px 0px 1px inset;
+    color: #74aa28;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.login .btn a:hover {
+    background-color: #74aa28;
+    color: white;
+    transition: all .1s ease-in-out;
+
+}
+
+main {
+    display: block;
+}
+
+.hero {
+    background-image: url("https://images.unsplash.com/photo-1568623970736-27bea63b4489?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80");
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    min-height: 650px;
+}
+
+.info {
+    max-width: 1140px;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+    position: absolute;
+    top: 0px;
+    bottom: auto;
+    text-align: center;
+    max-width: 964px;
+    position: relative;
+    top: auto;
+    bottom: auto;
+}
+
+.desc {
+    display: flex;
+    justify-content: center;
+
+}
+
+.text {
+    width: 50%;
+
+
+}
+
+.text h1 {
+    font-size: 40px;
+    line-height: 48px;
+    color: white;
+    margin: 0px;
+    text-align: center;
+    font-weight: 600;
+
+}
+
+.text h2 {
+    margin-top: 10em;
+    display: block;
+    color: white;
+    margin: 0px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+
+
+}
