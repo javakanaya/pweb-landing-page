@@ -51,8 +51,8 @@ header {
 }
 
 .nav .menu a img {
-    height: 50px;
-    margin-top: -10px;
+    height: 42px;
+    margin-top: -6px;
 }
 
 .login {
@@ -169,6 +169,77 @@ main {
     line-height: 32px;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 4px;
+}
 
+.why {
+    border-bottom: 1px solid #EEEEEE;
+    padding-bottom: 32px;
+    background-color: #f8f8f8;
+}
 
+.why-text {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.why-text h2 {
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 400;
+    letter-spacing: -0.3px;
+    color: #242424;
+    font-size: 20px;
+    text-align: center;
+    font-size: 24px;
+    padding: 40px 10px 30px 10px;
+}
+
+.why-list {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    max-width: 1140px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.list-item {
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    align-items: baseline;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.item-content {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.item-content h3 {
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.3px;
+    color: #242424;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.item-content p {
+    font-weight: 400;
+    line-height: 20px;
+    color: #242424;
+    font-size: 14px;
+    flex: 1;
+    display: block;
+    padding: 0 30px;
+    box-sizing: border-box;
+    width: 100%;
 }
