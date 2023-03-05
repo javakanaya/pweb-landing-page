@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 * {
-    box-sizing: border-box;
-    margin: 0;
     padding: 0;
-}
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
 
-body {
-    font-family: 'Poppins', sans-serif;
 }
 
 header {
@@ -45,9 +46,12 @@ header {
     font-size: 16px;
     font-weight: 400;
     height: 100%;
-    line-height: 20px;
     padding: 16px;
     text-decoration: none;
+}
+
+.nav .menu a:hover {
+    color: #74aa28;;
 }
 
 .nav .menu a img {
@@ -248,7 +252,6 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-
     margin: 24px auto auto;
 }
 
@@ -271,7 +274,177 @@ main {
     line-height: 24px;
     padding: 12px 24px;
     background-color: #74aa28;
-    color: rgb(255, 255, 255);
+    color: white;
     text-decoration: none;
     cursor: pointer;
+}
+
+.why-button .btn a:hover{
+    background-color: #57811c;;
+}
+.menu {
+    border-bottom: 1px solid #EEEEEE;
+    padding-bottom: 32px;
+    background-color: #FFFFFF;
+}
+
+.menu-text {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.menu-text h2 {
+    font-weight: 400;
+    letter-spacing: -0.3px;
+    color: #242424;
+    text-align: center;
+    font-size: 24px;
+    padding: 32px 10px 8px 10px;
+}
+
+.menu-text p {
+    font-weight: 400;
+    color: #242424;
+    display: block;
+    margin: auto;
+    padding: 0 10px;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    width: 60%;
+}
+
+.carousell {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.carousell-choices {
+    display: flex;
+    column-gap: normal;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.carousell-content {
+    width: calc(100% - 80px);
+    margin: 0 5px;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+
+
+}
+
+.food {
+    padding: 0 10px;
+    box-sizing: border-box;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.food span {
+    box-sizing: border-box;
+    display: inline-block;
+    overflow: hidden;
+    width: 262px;
+    height: 315px;
+    background: none;
+    opacity: 1;
+    border: 0px none;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+.food span img {
+    position: absolute;
+    inset: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    border: medium none;
+    margin: auto;
+    display: block;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+}
+
+.food-text {
+    bottom: 24px;
+    position: absolute;
+    left: 16px;
+    z-index: 1;
+    display: flex;
+    vertical-align: top;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    width: 89%;
+}
+
+.food-text h3 {
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.3px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 1px;
+    color: #242424;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-size: 24px;
+    line-height: 32px;
+    max-width: 90%;
+}
+
+.food-text p {
+    color: #242424;
+    background: #ffcf70;
+    font-size: 14px;
+    padding: 0 8px;
+    border-radius: 3px;
+    font-weight: 600;
+    line-height: 1.5;
+    max-width: 95%;
+}
+
+footer {
+    
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    border-top: 1px solid rgb(228, 228, 228);
+    flex-direction: column;
+}
+
+.footer-content {
+    display: flex;
+    width: 100%;
+    padding: 48px 120px;
+    justify-content: center;
+}
+
+.footer-content div {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.footer-content div h4 {
+    color: rgb(36, 36, 36);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.footer-content div a {
+    color: inherit;
+    margin: 5px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #74aa28;
 }
